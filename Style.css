@@ -1,0 +1,135 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Arial;
+  box-sizing: border-box;
+}
+.navbar {
+  height: 60px;
+  background-color: #0f1111;
+  color: white;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.nav-logo {
+  height: 50px;
+  width: 100px;
+}
+.logo {
+  background-image: url("./images/amazon_logo.png");
+  background-size: cover;
+  height: 50px;
+  width: 100%;
+}
+
+.border {
+  border: 1.5px solid transparent;
+}
+
+.border :hover {
+  border: 1.5px solid white;
+}
+
+/**
+Box-2 of the nav bar (address box)
+**/
+
+.location-icon {
+  display: flex;
+  align-items: center;
+}
+
+.address-title {
+  color: #cccccc;
+  font-size: 0.9rem;
+  margin-left: 15px;
+}
+
+.address-country {
+  font-size: 1rem;
+  margin-left: 4px;
+}
+/**
+Box-3 of the nav bar (Search bar)
+**/
+.nav-search {
+  display: flex;
+  justify-content: space-evenly;
+  width: 620px;
+  height: 40px;
+  background-color: rgb(193, 177, 70);
+  border-radius: 4px;
+}
+.nav-search:hover {
+  border: 3px solid orange;
+}
+.search-select {
+  background-color: #f3f3f3;
+  width: 50px;
+  padding: 5px;
+  border-top-left-radius: 4px;
+  border-bottom-left-radius: 4px;
+  text-align: center;
+  border: none;
+}
+.search-input {
+  width: 100%;
+  font-size: 1rem;
+  border: none;
+}
+.search-icon {
+  background-color: rgb(255, 192, 56);
+  width: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.2rem;
+  padding: 5px;
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 4px;
+  color: #0f1111;
+}
+/**
+Box-4 of the nav bar (Country Selection)
+**/
+.country-selection {
+  width: 50px;
+  padding: 10px;
+}
+.Countrys {
+  padding: 10px;
+  background-color: #0f1111;
+  color: #f3f3f3;
+}
+.country-img {
+  width: 25px;
+  height: 25px;
+}
+/**
+Box-5 of the nav bar (Country Selection)
+**/
+.nav-first {
+  font-size: 0.7rem;
+}
+.nav-second {
+  font-size: 0.8rem;
+  font-weight: 700;
+}
+/**
+Box-6 of the nav bar (Country Selection)
+**/
+.nav-cart {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  font-size: 0.85rem;
+  font-weight: 700;
+}
+.nav-cart p {
+  margin-left: 4px;
+}
+.nav-cart i {
+  font-size: 30px;
+}
